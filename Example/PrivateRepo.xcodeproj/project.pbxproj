@@ -39,8 +39,8 @@
 /* Begin PBXFileReference section */
 		05C31B1F938A4F5D95171C1F /* Pods-PrivateRepo_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrivateRepo_Tests.debug.xcconfig"; path = "Target Support Files/Pods-PrivateRepo_Tests/Pods-PrivateRepo_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		195638A4823E879B0C36EB98 /* Pods_PrivateRepo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PrivateRepo_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1C7DC3D5E542562D91FCA2EE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		2A4355B7CCAD16324CDBF2CF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		1C7DC3D5E542562D91FCA2EE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		2A4355B7CCAD16324CDBF2CF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		4DC58FF7C2FAC48E7AE6B5F7 /* Pods-PrivateRepo_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrivateRepo_Example.debug.xcconfig"; path = "Target Support Files/Pods-PrivateRepo_Example/Pods-PrivateRepo_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* PrivateRepo_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrivateRepo_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -65,7 +65,7 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A29AA0097F560DC4364A78E9 /* Pods-PrivateRepo_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrivateRepo_Tests.release.xcconfig"; path = "Target Support Files/Pods-PrivateRepo_Tests/Pods-PrivateRepo_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		DBFFC42D1C98CE1B474317D9 /* PrivateRepo.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivateRepo.podspec; path = ../PrivateRepo.podspec; sourceTree = "<group>"; };
+		DBFFC42D1C98CE1B474317D9 /* PrivateRepo.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = PrivateRepo.podspec; path = ../PrivateRepo.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F168C2B19AAD6119AECC0E1A /* Pods_PrivateRepo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PrivateRepo_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -193,7 +193,6 @@
 				05C31B1F938A4F5D95171C1F /* Pods-PrivateRepo_Tests.debug.xcconfig */,
 				A29AA0097F560DC4364A78E9 /* Pods-PrivateRepo_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -259,6 +258,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

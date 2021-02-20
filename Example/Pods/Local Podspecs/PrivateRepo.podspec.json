@@ -1,0 +1,22 @@
+{
+  "name": "PrivateRepo",
+  "version": "0.1.0",
+  "summary": "A short description of PrivateRepo.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/zhangdengxu/TestAppManager",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "1055108521@qq.com": "dengxu.zhang@fenbeitong.com"
+  },
+  "source": {
+    "git": "https://github.com/zhangdengxu/TestAppManager.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "PrivateRepo/Classes/**/*"
+}
